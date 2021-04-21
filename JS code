@@ -31,6 +31,12 @@
     for (i = 0; i < allImg.length; i++) {
         allImg[i].style.opacity = 1;
     }
+    
+    var list = document.getElementsByClassName('text_layer')
+    for (let item of list) {
+    item.style.textShadow = ''
+}
+
                  }, 1000);
 
 })();
